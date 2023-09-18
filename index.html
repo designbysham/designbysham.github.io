@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutritionally - Home</title>
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+<body>
+    <header>
+        <button id="menu-button">MENU</button>
+
+        <!-- Hidden Full-Screen Menu -->
+        <div id="menu-overlay" class="hidden">
+            <div class="menu-content">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="book.html">Book Consultation</a>
+                <a href="shop.html">Shop</a>
+                <!-- Add more links as needed -->
+                <button id="close-menu">Close</button>
+            </div>
+        </div>
+        <img src ="web_images/logo.svg">
+    </header>
+    <div class = "contact-div">
+        <span>8160 120 Street, Surrey BC</span>
+    </div>
+    <hr>
+    <div class = "welcome-message">
+        <h3>Welcome to Nutritionally Organice & Wellness</h3> 
+        <span>Your Path to Health and Wellness Begins Here</span>
+    </div>
+    <div class = "home-products-div">
+        <h3>Shop For</h3>
+        <a href = "shop.html">VIEW ALL PRODUCTS</a>
+        <section class = "home-products">
+            <figure>
+                <img src="downloaded_images/_242_d245b70a-4559-4e3f-8606-cdf512d7d7ed.c517e81f310cb34a1b687a7d87dc0518.webp" alt="">
+                <span>Vitamins</span>
+            </figure>
+            <figure>
+                <img src="downloaded_images/_242_1647435275_CP-L-TyrosineVeganAminoAcid-220g-RGB-195517-V1_839_1430.webp" alt="">
+                <span>Minerals</span>
+            </figure>
+        </section>
+        <section class = "home-products">
+            <figure>
+                <img src="downloaded_images/_242_Untitleddesign-2021-05-05T104823.785.webp" alt="">
+                <span>Herbs</span>
+            </figure>
+            <figure>
+                <img src="downloaded_images/_242_1647434986_CP-L-GlutamineVeganAminoAcid-450g-RGB-195522-V1_839_1430.webp" alt="">
+                <span>Probiotics</span>
+            </figure>
+        </section>
+        <section class = "home-products">
+            <figure>
+                <img src="downloaded_images/_242_thumb_1128_309_309_0_0_auto_up.webp" alt="">
+                <span>Prebiotics</span>
+            </figure>
+            <figure>
+                <img src="downloaded_images/_242_PN-Quercetin-120-VCaps-WEB.jpg" alt="">
+                <span>Fiber Supplements</span>
+            </figure>
+        </section>
+        <section class = "home-products">
+            <figure>
+                <img src="downloaded_images/_242_kids-immune-english.webp" alt="">
+                <span>Vitamins</span>
+            </figure>
+            <figure>
+                <img src="downloaded_images/_242_xeccoemcnrb5k9uwznch_750x.webp" alt="">
+                <span>Minerals</span>
+            </figure>
+        </section>
+    </div>
+    <section id="contact" class="contact-section">
+        <div class="container">
+          <h2>Contact Us</h2>
+          <div class="contact-form">
+            <form action="submit_contact_form.php" method="POST">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+              <button type="submit" class="send-button">Send</button>
+            </form>
+          </div>
+          <div class="contact-info">
+            <p>Contact Information:</p>
+            <p>Email: nutritionallybc@gmail.com</p>
+            <a>Phone: +1 (604) 593-5933</a>
+          </div>
+          <!-- Include your map widget code here if applicable -->
+          <!-- Include your map widget code here if applicable -->
+            <div class="map-container">
+                <h3>Our Location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2609.5781621637284!2d-122.89241342351866!3d49.151633171373454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d93d076f81e9%3A0x141153618ca45806!2sNutritionally%20Organics%20and%20Wellness%20Market%20Ltd.!5e0!3m2!1sen!2sca!4v1695001650067!5m2!1sen!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+      </section>
+      
+    
+
+    <script src = "script.js"></script>
+</body>
+</html>

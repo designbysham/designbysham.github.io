@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "styles.css">
+    <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+</head>
+<body>
+    <header>
+        <button id="menu-button">MENU</button>
+        <!-- Hidden Full-Screen Menu -->
+        <div id="menu-overlay" class="hidden">
+            <div class="menu-content">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href = "book.html">Book Consultation</a>
+                <a href="shop.html">Shop</a>
+                <!-- Add more links as needed -->
+                <button id="close-menu">Close</button>
+            </div>
+        </div>
+        <img src ="web_images/logo.svg">
+    </header>
+    <div class = "contact-div">
+        <span>8160 120 Street, Surrey BC</span>
+    </div>
+    <hr>
+    <h5>We are a local wellness and nutrition store dedicated to providing high-quality, healthy products to our community.</h5>
+
+    <figure class = "book-owner-figure">
+        <img src="web_images/owner.svg" alt="">
+        <div>
+            <span>Sarvesh Kumar</span>
+            <span>BHMS</span>
+        </div>
+    </figure>
+    <section class = "consultation">
+        <h3>Book Your Consultation:</h3>
+        <p>
+            <span>Ready to take the first step toward better health and vitality?</span>
+            <span>Schedule your 10-minute consultation with our experienced homeopathic practitioner today. </span>
+            <span>It's a small investment in your well-being that can lead to significant positive changes.</span>
+        </p>
+    </section>
+    <stripe-buy-button buy-button-id="buy_btn_1NrYIGIrrzXCgiDEgm1Eti1L" class = "book-button" publishable-key="pk_test_51NppkRIrrzXCgiDEIVn0fy76XfWnVud2XS0k4uDiE2PUTisXpstf4ZoIrdQoz5yAOtOhRegimG3pOtoko1KgB2OC003M5pww7K"></stripe-buy-button>
+    <script src = "script.js"></script>
+</body>
+</html>
+</html>

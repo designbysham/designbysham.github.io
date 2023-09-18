@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html id = "shop" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutritionally - Shop</title>
+    <link rel = "stylesheet" href = "styles.css">
+    <script src="https://js.stripe.com/v3/"></script>
+
+</head>
+<body>
+    <header>
+        <button id="menu-button">MENU</button>
+
+        <!-- Hidden Full-Screen Menu -->
+        <div id="menu-overlay" class="hidden">
+            <div class="menu-content">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="book.html">Book Consultation</a>
+                <a href="shop.html">Shop</a>
+                <!-- Add more links as needed -->
+                <button id="close-menu">Close</button>
+            </div>
+        </div>
+        <div class = "shop-header">
+            <img src ="web_images/logo.svg">
+            <figure>
+                <img src="web_images/shopping_cart.svg" alt="shopping_cart">
+                <span id = "cart_number"></span>
+            </figure>
+
+        </div>
+        
+    </header>
+    <hr>
+    <div class="product-container" id = "product-container">
+        
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    
+    <script src = "script.js"></script>
+    
+</body>
+</html>
